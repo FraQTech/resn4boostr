@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated PRAB manuscript and the BOOSTR dataset."
+title: "BOOSTR RRC-ESN Reproducibility Suite"
+authors:
+  - family-names: "Bhatia"
+    given-names: "Krishna"
+  - family-names: "Tiwari"
+    given-names: "Kumari Jyoti"
+year: 2026
+version: "1.0.0"

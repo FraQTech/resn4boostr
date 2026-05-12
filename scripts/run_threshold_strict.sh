@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -euo pipefail
+python boostr_rrcesn_suite_gpuopt.py --data BOOSTR_PartialRelease.csv --time-col time --suite main --device cuda --chunk-size 1000000 --accum-batch 16384 --n-reservoir 1200 --n-ensemble 3 --temporal-scales 1 5 15 --lags 1 3 5 7 --weights 0.5 0.3 0.15 0.05 --quantile 0.999 --target-events-per-hour 1 --smooth-s 1.0 --min-dwell-s 1.0 --merge-gap-s 0.5 --hysteresis 0.1 --attribution-topk 10 --experiment-name threshold_sensitivity_strict

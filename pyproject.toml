@@ -1,0 +1,11 @@
+[project]
+name = "boostr-rrcesn-prab-repro"
+version = "0.2.0"
+description = "Physics-augmented reconstructive reservoir computing suite for BOOSTR anomaly/event detection"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["boostr_rrcesn"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

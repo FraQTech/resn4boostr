@@ -1,6 +1,6 @@
 # Data placement
 
-This repository does not include BOOSTR data files.
+This repository does not include BOOSTR data files. The CSV of the BOOSTR Partial Release dataset used in this project is available at https://zenodo.org/records/4088982
 
 Place the partial release CSV in the repository root:
 
